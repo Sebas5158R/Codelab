@@ -23,8 +23,8 @@ val LightBlue = Color(0xFF0096F3)
 val Chartreuse = Color(0xFFEFF7CF)
 
 private val DarkColorScheme = darkColorScheme(
-    surface = Yellow,
-    onSurface = Navy,
+    surface = Navy,
+    onSurface = Yellow,
     primary = Navy,
     onPrimary = Chartreuse
 )
@@ -32,7 +32,7 @@ private val DarkColorScheme = darkColorScheme(
 private val LightColorScheme = lightColorScheme(
     surface = Yellow,
     onSurface = Color.White,
-    primary = LightBlue,
+    primary = Color.Yellow,
     onPrimary = Navy
 
     /* Other default colors to override
